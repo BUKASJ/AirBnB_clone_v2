@@ -2,7 +2,7 @@
 """This module instantiates an object of class FileStorage or DBStorage based
 on environment variable"""
 
-from os importgetenv
+from os import getenv
 
 if __name__ == "__main__":
     storage_type = getenv("HBNB_TYPE_STORAGE", "fs")
